@@ -1,0 +1,23 @@
+{
+    "integrate":{
+        "run":{
+            "expressions":[
+                "integrate x.",
+                "int x."
+            ],
+            "entities":[
+                {
+                    "type":"trim",
+                    "name":"func",
+                    "conditions":[
+                        {
+                            "type":"between",
+                            "from":["int","integrate"],
+                            "to":["end","."]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

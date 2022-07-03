@@ -1,0 +1,9 @@
+{
+    "getpoem":{
+        "run":{
+            "expressions":[
+                "give me poem","poem","show poem","show a poem","show me poem","poem poem","给我一首诗","诗词","诗"
+            ]
+        }
+    }
+}

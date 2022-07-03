@@ -1,0 +1,13 @@
+{
+    "integrate":{
+        "show_int_ans":[
+            "ans=%ans%"
+        ],
+        "func_not_provided":[
+            "please input like integrate cos(x) end. remember end "
+        ],
+        "error":[
+            "cant get integrate,i am so stupid(-_-)"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "getweather":{
+        "listweather":[
+            "城市:%parent% %city%<br><br>时间:%time%<br><br>温度:%high_temp% %low_temp%<br><br>天气:%weather_type%"
+        ],
+        "city_not_found":[
+            "city not found"
+        ]
+    }
+}

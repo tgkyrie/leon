@@ -1,0 +1,26 @@
+{
+    "getweather":{
+        "run":{
+            "expressions":[
+                "show x weather",
+                "give x weather",
+                "show x weather",
+                "x weather",
+                "weather x"
+            ],
+            "entities":[
+                {
+                    "type":"trim",
+                    "name":"city",
+                    "conditions":[
+                        {
+                            "type":"between",
+                            "from":["show","give"],
+                            "to":["weather"]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

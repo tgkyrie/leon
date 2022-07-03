@@ -1,0 +1,7 @@
+{
+    "getpoem":{
+        "listpoem":[
+            "%content%<br><br><div style='text-align:right'>--<<%origin%>> %author%</div>"
+        ]
+    }
+}
